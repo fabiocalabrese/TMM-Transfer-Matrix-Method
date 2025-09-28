@@ -1,46 +1,19 @@
-# MATLAB Simulations and Numerical Methods
+# Transfer Matrix Method (TMM) – MATLAB
 
-This repository contains several simulation projects and numerical method implementations developed in MATLAB.  
-Each folder or script targets a specific physics or engineering topic, with a mix of algorithmic code and supporting reports.
+**Description**  
+Implementation of the Transfer Matrix Method for simulating layered media (ordered and disordered layers), including a full report.
 
----
+**Motivation**  
+This project helps analyze how electromagnetic waves propagate through complex layer structures using MATLAB.
 
-## 📂 Folder Structure
+**Contents**  
+- `transfer_matrix.m`: simple simulation script of TMM
+- `fit_TMM.m`, `interp_GaAs_n.m`: simulation of ordered and disordered structure, interpolation of complex refractive index
+- `Essay_s343467.pdf`: detailed explanation of the method and results  
+- `README.md`: this file
 
-### 🔬 `TMM/` – Transfer Matrix Method
-- Simulates wave propagation in layered media using the Transfer Matrix Method (TMM).
-- Includes both ordered and disordered layer structures.
-- Comes with a detailed report explaining the methodology and results.
-
----
-
-### 🧮 `metodi/` – Numerical Methods
-- A collection of MATLAB scripts covering a range of numerical techniques:
-  - Finite Difference Methods
-  - Ordinary Differential Equations (ODE) Solvers
-  - Linear and Nonlinear System Solvers
-- Useful for both academic exercises and algorithm prototyping.
-
----
-
-## 📄 Standalone Scripts
-
-### 📌 `TE_modes.m`
-- Simulates the **TE modes** of a slab waveguide.
-
-### 📌 `series_of_well.m`
-- Models a **series of quantum wells** using potential profiles.
-- Useful for understanding carrier behavior in nanostructures or semiconductor heterostructures.
-
----
-
-## 🧠 Educational Scope
-
-These codes were written for educational and research purposes, with a focus on:
-
-- Electromagnetics
-- Quantum structures
-- Numerical algorithm experimentation
-- Simulation of physical models in 1D
-
-Each folder contains either documentation or comments to help understand the approach and results.
+**How to run**  
+1. Open MATLAB.  
+2. Run one of the scripts, e.g.:  
+   ```matlab
+   trasnfer_matrix
